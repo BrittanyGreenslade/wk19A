@@ -5,8 +5,8 @@ import division
 
 print("Welcome to the simple calculator please select from the following options:\n1: Addition \n2: Subtraction \n3: Multiplication  \n4: Division")
 selection = int(input("Please enter your selection:"))
-num_one = int(input("Please enter your first number:"))
-num_two = int(input("Please enter your second number:"))
+num_one = float(input("Please enter your first number:"))
+num_two = float(input("Please enter your second number:"))
 if (selection == 1):
     sum_num = addition.add_things(num_one, num_two)
     print(f"Your result:{sum_num}")
